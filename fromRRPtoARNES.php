@@ -43,7 +43,7 @@ foreach ($dNameMass as $key => $fields) {
                     $dateCurr = date('Y-m-d');
                     $dateDiff = (strtotime($dateCurr) - strtotime($dateUpd))/86400;
                     $reportMass[$key]["difference between dates"]=$dateDiff;
-                    if ($dateDiff > 10) {
+                    if ($dateDiff > 15) {
                          $dNameMass[$key]['stage'] = 1;
                     } else {
                         $dNameMass[$key]['stage'] = 2;
