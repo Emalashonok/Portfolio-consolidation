@@ -1,0 +1,11 @@
+script of migration domains from RRP to OP account in ARNES
+
+input data in file listLive.csv
+format:
+domain_name.si;
+domain2_name.si;
+.....
+domainN_name.si;
+
+Script for many times executing
+every iteration numberes in stage.txt file 
